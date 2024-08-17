@@ -7,7 +7,7 @@ void CSCAN();
 void main(){
 int choice;
 while(choice!=4){
-printf("\n--->1.FCFS 2.SCAN 3.CSCAN 4.EXIT\nEnter the choice:");
+printf("\n--->1.FCFS 2.SCAN 3.CSCAN 4.EXIT\nenter the choice:");
 scanf("%d",&choice);
 switch(choice){
 case 1:{
